@@ -48,8 +48,8 @@ resetButton.addEventListener("click",(event) => {
   tileManager = new TileManager(images[targetIndex++ % images.length]);
   tileManager.mixTiles();
   for(let i = 0; i < confetti.length; i++) {
-    confetti[i].y = random(-height,0);
     confetti[i].init();
+    confetti[i].y = random(-height,0);
   }
 });
 
