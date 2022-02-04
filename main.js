@@ -49,7 +49,7 @@ resetButton.addEventListener("click",(event) => {
   tileManager.mixTiles();
   for(let i = 0; i < confetti.length; i++) {
     confetti[i].init();
-    confetti[i].y = random(-height,0);
+    confetti[i].y = random(-400,0);
   }
 });
 
