@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="confetto.js" defer></script>
+  <script src="api.js" defer></script>
+  <script src="std.js" defer></script>
+  <script src="tile.js" defer></script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>16パズルで遊ぼう！</h1>
+  </header>
+  <main>
+    <div>
+      <div class = "howto">
+        <h2>遊び方</h2>
+        <p>タイルをクリックするとタイルを動かすことができるよ</p> 
+        <p>絵が完成するように動かそう！</p>
+        <p>ヒントボタンを押すとヒントがでるよ！</p>
+      </div>
+      <div class = "canvas-container">
+        <div class = "button-container">
+          <button id = "resetButton">パズルを生成する</button>
+          <button id = "hintButton">ヒント</button>
+        </div>
+        <div id = "canvas"></div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <h1>Webプログラミング課題作品</h1>
+    <p>日本大学文理学部情報科学科 土岐田力輝</p>
+  </footer>
+</body>
+</html>

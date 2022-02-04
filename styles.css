@@ -1,0 +1,70 @@
+body {
+  margin: 0; 
+  padding:0;
+  text-align: center;
+}
+
+header {
+  background-color: rgb(4, 36, 46);
+  color: white;
+  padding:40px;
+}
+
+.howto {
+  /* padding-top:20px; */
+  padding-bottom:20px;
+  margin:40px 0px;
+  background-color: white;
+}
+.howto p {
+  /* letter-spacing: ; */
+}
+.howto h2 {
+  color: white;
+  margin:0px 400px;
+  background:linear-gradient(rgba(8, 109, 25, 0.568), rgb(8, 100, 86));
+}
+
+main {
+  text-align: center;
+  background-image: url("background.png");
+  background-size:auto;
+  background-position-y: 100px;
+}
+.canvas-container {
+  background-color: rgba(216, 215, 221, 0.5);
+  height:650px;
+}
+footer {
+  background-color: rgb(87, 6, 26);
+  color:white;
+  padding:20px;
+}
+
+.button-container {
+  padding-top:40px; 
+  padding-bottom: 20px;
+}
+
+button {
+  color: #fff;
+  border-top: 4px solid #48ecc4;
+  border-right: 4px solid #0a5f4a;
+  border-bottom: 4px solid #0f745b;
+  border-left: 4px solid #8cf9de;
+  border-radius: 0;
+  background: #11a37f;
+}
+button:hover {
+  color: #fff;
+  border-top: 4px solid #0f745b;
+  border-right: 4px solid #8cf9de;
+  border-bottom: 4px solid #48ecc4;
+  border-left: 4px solid #0a5f4a;
+}
+
+#canvas {
+  margin:0 auto;
+  padding:20px;
+  margin-bottom: 100px;
+}
