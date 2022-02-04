@@ -1,7 +1,7 @@
 class Confetto {
   constructor() {
     this.init();
-    this.y = random(-height,0);
+    this.y = random(-400,0);
     this.r = 4;
     this.g = 0.1;
     this.k = 0.07;
@@ -12,7 +12,7 @@ class Confetto {
     colorMode(RGB);
   }
   init() {
-    this.x = random(0,width);
+    this.x = random(0,400);
     this.vx = random(-2,2);
     this.vy = random(1,3);
     this.angAx = random(-0.0009,0.0009);
